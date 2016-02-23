@@ -102,11 +102,18 @@ section {
 }
 
 #nav {
-    font-weight: 700;
     color: #f5f5f5;
     font-size: 20px;
     padding: 3%;
     text-align: center;
+}
+
+.a-nav, .a-nav:focus {
+    color: #f5f5f5;
+}
+
+.a-nav:hover, .a-nav:focus:hover {
+    color: #34495e;
 }
 
 .navbar-default {

@@ -254,7 +254,7 @@ p {
 }
 
 .img-browser {
-    position: fixed;
+    position: absolute;
     top: 20%;
 }
 

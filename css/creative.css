@@ -209,8 +209,7 @@ section {
 
 .intro {
     width: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 10% 5%;
 }
 
 .section-heading {

@@ -16,8 +16,10 @@ body {
 }
 
 .body {
-    margin: 10px;
+    margin: 1%;
     background: #fff;
+    width: 98%;
+    padding: 0;
 }
 
 hr {
@@ -82,8 +84,19 @@ aside {
     padding: 0;
 }
 
+@media(min-width:768px) {
+    nav {
+        display: none;
+    }
+}
+
+@media(max-width:767px) {
+    #nav {
+        display: none;
+    }
+}
+
 .navbar-default {
-    border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
@@ -179,6 +192,10 @@ aside {
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #2498db;
     }
+}
+
+.intro {
+    width: 100%;
 }
 
 .section-heading {

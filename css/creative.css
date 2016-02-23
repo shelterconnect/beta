@@ -126,7 +126,6 @@ section {
 }
 
 .btn-register {
-    border: none;
     color: #f5f5f5;
     background-color: #2ecc71;
     border: 2px #2ecc71 solid;
@@ -134,7 +133,8 @@ section {
 
 .btn-register:hover {
     color: #2ecc71;
-    background-color: #2498db;
+    background-color: #00000000;
+    text-decoration: none;
 }
 
 .btn-login {
@@ -145,7 +145,8 @@ section {
 
 .btn-login:hover {
     color: #f5f5f5;
-    background-color: #2498db;
+    background-color: #00000000;
+    text-decoration: none;
 }
 
 .navbar-default {

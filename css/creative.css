@@ -81,6 +81,13 @@ p {
     color: rgba(255,255,255,.7);
 }
 
+#img-cover {
+    width: 1%;
+    height: 100%;
+    position: fixed;
+    transform: translateX(99%);
+}
+
 section {
     padding-right: 5%;
     padding-left: 5%;
@@ -255,8 +262,8 @@ section {
 }
 
 .img-browser {
-    position: fixed;
-    top: 10%;
+    position: absolute;
+    transform: translateY(-20%);
 }
 
 .section-heading {

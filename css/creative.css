@@ -251,6 +251,10 @@ section {
     padding: 10% 5%;
 }
 
+.img-browser {
+    position: fixed;
+}
+
 .section-heading {
     margin-top: 0;
 }

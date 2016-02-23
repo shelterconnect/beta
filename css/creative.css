@@ -85,7 +85,9 @@ p {
     width: 1%;
     height: 100%;
     position: fixed;
-    transform: translateX(99%);
+    right: 0;
+    background: #f5f5f5;
+    z-index: 9;
 }
 
 section {

@@ -255,7 +255,7 @@ section {
 }
 
 .img-browser {
-    position: absolute;
+    position: fixed;
     top: 10%;
 }
 

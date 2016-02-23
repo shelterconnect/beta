@@ -81,7 +81,7 @@ p {
     color: rgba(255,255,255,.7);
 }
 
-section {
+.sec-inner {
     padding: 100px 5%;
 }
 
@@ -255,6 +255,7 @@ section {
 
 .img-browser {
     position: fixed;
+    top: 20%;
 }
 
 .section-heading {

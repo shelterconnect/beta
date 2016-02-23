@@ -102,11 +102,12 @@ aside {
 }
 
 #nav {
-    font-size: 14px;
     font-weight: 700;
+    color: #f5f5f5;
+    font-size: 20px;
+    padding-top: 3%;
+    text-align: center;
 }
-
-#nav 
 
 .navbar-default {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;

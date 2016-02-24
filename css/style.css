@@ -276,7 +276,9 @@ section {
 
 .img-browser {
     position: absolute;
-    transform: translateY(-20%);
+    top: 0;
+    right: -45%;
+    transform: translateY(-25%) translateX(-35%);
 }
 
 .section-heading {

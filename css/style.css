@@ -85,7 +85,7 @@ p {
 #img-cover {
     width: 1%;
     height: 100%;
-    position: fixed;
+    position: absolute;
     right: 0;
     background: #f5f5f5;
     z-index: 9;

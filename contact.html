@@ -102,19 +102,30 @@
                 </div>
                 <div class="col-md-6 col-md-offset-3 text-left">
                     <form>
-                        <fieldset class="form-group">
-                            <label for="inputEmail">Email Address</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="example@domain.com">
-                        </fieldset>
-                        <fieldset class="form-group">
-                            <label for="inputName">Name</label>
-                            <input type="text" class="form-control" id="inputName" placeholder="Your Name">
-                        </fieldset>
-                        <fieldset class="form-group">
-                            <label for="inputComments">Comments</label>
-                            <input type="text" class="form-control" id="inputComments" placeholder="Comments">
-                        </fieldset>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <div class="form-group row">
+                            <label for="inputEmail" class="form-control-label col-md-2">Email</label>
+                            <div class="col-md-10">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="example@domain.com">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputName" class="col-md-2">Name</label>
+                            <input type="text" class="form-control col-md-10" id="inputName" placeholder="Your Name">
+                        </div>
+                        <div class="form-group row">
+                            <label for="selectSubject" class="col-md-2">Subject</label>
+                            <select class="form-control col-md-10" id="selectSubject">
+                                <option>Technical Support</option>
+                                <option>Account Problems</option>
+                                <option>Inquiries</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputMessage">Message</label>
+                            <textarea type="text" class="form-control" id="inputMessage" placeholder="Message"></textarea>
+                        </div>
+                        <a type="submit" role="button" class="btn-submit">Submit</a>
                     </form>
                 </div>
             </div>

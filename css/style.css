@@ -127,7 +127,7 @@ section {
     color: #34495e;
 }
 
-.btn-register, .btn-login {
+.btn-register, .btn-login, .btn-submit {
     border-radius: 10em;
     padding: 3% 12%;
     text-decoration: none;
@@ -158,6 +158,19 @@ section {
 
 .btn-login:hover {
     color: #f5f5f5;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.btn-submit {
+    color: #f5f5f5;
+    background-color: #2ecc71;
+    border: 2px #2ecc71 solid;
+}
+
+.btn-submit:hover {
+    color: #f5f5f5;
+    border-color: #f5f5f5;
     background-color: transparent;
     text-decoration: none;
 }

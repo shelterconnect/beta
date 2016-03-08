@@ -274,6 +274,14 @@ section {
     padding: 10% 5%;
 }
 
+.side-thing {
+    background: #000;
+    height: 100%;
+    width: 5%;
+    position: absolute;
+    right: 0;
+}
+
 .img-browser {
     position: absolute;
     top: 0;

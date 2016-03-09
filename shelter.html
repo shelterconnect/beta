@@ -72,7 +72,15 @@
         </div>
         <div class="container-fluid intro bg-primary" style="padding:0">
             <div class="row">
-                <div class="col-md-6 col-md-offset-2 text-center bg-clear text-primary">
+                <div id="sidebar" class="col-md-4 bg-primary" style="height:100px">
+                    <div class="sidebar-top" style="border-right:2px solid #f5f5f5;height:90px;margin-top:5px">
+                        <img src="img/icon.png" style="height:30%;width:30%">
+                        <h3>Name</h3>
+                        <p>Address</p>
+                        <p style="margin-bottom:0">Phone #</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-md-offset-1 text-center bg-clear text-primary">
                     <h2>Request Food</h2>
                     <form id="food-request">
                         <div class="form-group">
@@ -91,6 +99,12 @@
                         </div>
                         <a type="submit" role="button" class="btn-submit">Request</a>
                     </form>
+                </div>
+                <div class="col-md-5">
+                    <h2>Food on its way</h2>
+                    <div class="col-md-5" id="current-food bg-clear" style="height:100px;width:96%;margin-left:2%"></div>
+                </div>
+                <div class="col-md-5 col-md-offset-1">
                     <h2>Request Volunteers</h2>
                     <form id="food-request">
                         <div class="form-group">
@@ -108,16 +122,9 @@
                         <a type="submit" role="button" class="btn-submit">Request</a>
                     </form>
                 </div>
-                <div id="sidebar" class="col-md-4 bg-primary text-center">
-                    <div class="sidebar-top">
-                        <img src="img/icon.png" style="height:30%;width:30%">
-                        <h3>Name</h3>
-                        <p>Address</p>
-                        <p>Phone #</p>
-                        <hr>
-                    </div>
-                    <div id="current-requests bg-clear">
-                    </div>
+                <div class="col-md-5">
+                    <h2>Volunteers on their way</h2>
+                    <div class="col-md-5" id="current-volunteers bg-clear" style="height:100px;width:96%;margin-left:2%"></div>
                 </div>
             </div>
         </div>
